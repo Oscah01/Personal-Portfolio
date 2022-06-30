@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 -Open your GitHub account the repository's [link](https://github.com/Oscah01/Personal-Portfolio)
 
 ### Install
-- copy the repo's link and clone it by writing `git clone https://github.com/Oscah01/Hello-microverse.git` on your git bash terminal.
+- copy the repo's link and clone it by writing `git clone https://github.com/Oscah01/Hello-Personal-Portfolio.git` on your git bash terminal.
 
 ### Run tests
 
