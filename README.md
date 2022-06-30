@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# Personal Portfolio
 This project is about introduction to Microverse.
 
 ## Built With
@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
--Open your GitHub account the repository's [link](https://github.com/Oscah01/Hello-microverse)
+-Open your GitHub account the repository's [link](https://github.com/Oscah01/Personal-Portfolio)
 
 ### Install
 - copy the repo's link and clone it by writing `git clone https://github.com/Oscah01/Hello-microverse.git` on your git bash terminal.
@@ -53,7 +53,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Oscah01/Hello-microverse/issues).
+Feel free to check the [issues page](https://github.com/Oscah01/Personal-Portfolio/issues).
 
 ## Show your support
 
