@@ -6,14 +6,14 @@
   gap: 88px;
   background: #e5e5e5;
   position: absolute;
-  width: 375px;
+  width: 100%;
   height: 5410px;
   left: 0;
 }
 
 .headline {
   position: absolute;
-  width: 375px;
+  width: 100%;
   height: 718px;
   left: 0;
   top: 0;
