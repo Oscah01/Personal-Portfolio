@@ -361,8 +361,6 @@ nav {
   color: #fff;
 }
 
-
-/* styling the about myself section */
 .About-myself {
   width: auto;
   background: #fff;
@@ -497,11 +495,6 @@ nav {
   border-bottom: 2px solid #dfe1e6;
   padding: 0 9px;
 }
-
-
-
-
-/* end of styling the about myself section */
 
 .block1 {
   display: flex;
