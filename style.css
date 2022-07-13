@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,500&display=swap');
 
-/*Hey, doing great*/
 * {
   margin: 0;
   padding: 0;
@@ -558,13 +557,12 @@ footer {
 #msg {
   height: 176px;
   width: 100%;
-  font-family: 'Poppins',sans-serif;
- font-style: normal;
- font-weight: 400;
- font-size: 15px;
- line-height: 24px;
- color:#B3BAC5;
-
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
 }
 
 #contact-form p {
@@ -579,7 +577,7 @@ footer {
 }
 
 .input {
-  width:100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -593,7 +591,6 @@ footer {
   border-radius: 5px;
   border-style: none;
   width: 100%;
-  
 }
 
 .input textarea {
