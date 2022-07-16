@@ -272,7 +272,7 @@ header > .logo {
 }
 
 .lang-styles {
-  font-family: 'poppins' sans-serif;
+  font-family: 'poppins'sans-serif;
   background: #ebebff;
   border-radius: 8px;
   font-style: normal;
@@ -552,7 +552,7 @@ header > .logo {
   .canopy {
     width: 75px;
     height: 24px;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -564,7 +564,7 @@ header > .logo {
   }
 
   .tonic {
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins'sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -667,4 +667,3 @@ header > .logo {
     display: none;
   }
 }
-
