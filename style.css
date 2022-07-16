@@ -14,23 +14,15 @@ body {
 li {
   list-style: none;
 }
-
-.main-background {
-  width: 375px;
-  height: 3700px;
-  background: rgba(246.55, 247.24, 248.63, 1);
-}
-
 .container {
   display: grid;
-  max-height: 269.4rem;
   width: 100vw;
   grid: 1fr;
   align-items: center;
   justify-content: space-evenly;
   box-sizing: border-box;
   margin: 0;
-  padding: 14.2rem;
+  gap: 142px;
 }
 
 .top-sec {
@@ -94,20 +86,22 @@ header > .logo {
 }
 
 .primary-text {
+  margin: 12px 0 20px 20px;
   width: 260px;
   height: 178px;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: bold;
-  text-align: left;
   line-height: 52px;
   color: #172b4d;
 }
 
 .phar {
+  padding-left: 25px;
+  margin: 12px 0 20px 20px;
   overflow: hidden;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   text-align: left;
   line-height: 24px;
   color: #344563;
@@ -120,6 +114,8 @@ header > .logo {
 }
 
 .letsconnect {
+  margin-left: 25px;
+  align-items: flex-start;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -127,14 +123,12 @@ header > .logo {
   margin-top: 15px;
 }
 
-.socialmedia-list {
+.socialmedia-list{
   margin-top: 15px;
-  padding-left: 0;
+  padding-left: 25px;
   list-style-type: none;
   display: flex;
-   gap: 24px;
-  
-  
+   gap: 24px;  
 }
 
 .socialmedia {
@@ -147,21 +141,6 @@ header > .logo {
     justify-content: space-between;
     max-width: 50%;
 }
-
-.twit {
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  padding: 5px 10px;
-  margin-right: 10px;
-}
-
-.linkedin {
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  padding: 5px 10px;
-  margin-right: 10px;
-}
-
 .homepage {
   background-image: url(./images/background.png);
   background-size: 100%;
@@ -184,7 +163,7 @@ header > .logo {
   background-color: #fff;
   grid-row-start: 1;
   padding: 18px;
-  margin-top: 15px;
+  margin-top: 142px;
 }
 
 .works2 {
@@ -229,7 +208,6 @@ header > .logo {
   width: 100%;
   height: 100%;
 }
-
 .tonic {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -319,8 +297,9 @@ header > .logo {
   border: solid 1px #6070ff;
   color: #6070ff;
   border-radius: 10px;
-  margin: 30px 0;
+  margin: 30px 0 0 30px;
   padding: 12px;
+  padding-left: 30px;
   background-color: #fff;
   width: fit-content;
   cursor: pointer;
@@ -338,6 +317,7 @@ header > .logo {
 }
 
 .about-my-self {
+  padding-left: 25px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -346,6 +326,7 @@ header > .logo {
 }
 
 .contact-me {
+  padding-left: 25px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -496,11 +477,14 @@ header > .logo {
   margin-top: 50px;
   margin-bottom: 10px;
 }
-
+.socialmedia-list img{
+  height:20px;
+  width:20px;
+}
 @media (min-width: 768px) {
   .homepage {
     padding: 50px 30px 100px 30px;
-    height: 600px;
+    height: 100vh;
     margin: 0 auto;
     background: white;
     border-radius: 0 0 0 50px;
@@ -508,7 +492,6 @@ header > .logo {
     display: flex;
     justify-content: center;
   }
-
   header {
     background: white;
     padding: 0 140px;
@@ -519,12 +502,14 @@ header > .logo {
   }
 
   .primary-text {
+    justify-content: flex-start;
+    font-size: 48px;
     width: 100%;
     padding-top: 100px;
   }
 
   .phar {
-    margin: 50px 0 20px 0;
+    margin: 50px 150px 20px 0;
   }
 
   .top-sec {
@@ -541,7 +526,7 @@ header > .logo {
   }
 
   .headtitle {
-    padding: 0 140px;
+    padding: 50px 160px;
   }
 
   .headtitle-name {
@@ -629,9 +614,9 @@ line-height: 52px;
   footer {
     background-color: #fff;
   }
- .socials{
-  width: 5%;
-  gap: 1px;
+ .socials img {
+  width: 20px;
+  height: 20px;
  }
   .background-style {
     background: url("./images/desktop-contact.png");
@@ -670,4 +655,14 @@ line-height: 52px;
   .end-line {
     display: none;
   }
+}
+.container {
+  display: grid;
+  width: 100vw;
+  grid: 1fr;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 142px;
 }
