@@ -488,6 +488,8 @@ header > .logo {
   width: 20px;
 }
 
+/* Good use of media queries! */
+
 @media (min-width: 768px) {
   .homepage {
     padding: 50px 30px 100px 30px;
