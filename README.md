@@ -7,10 +7,8 @@ This project is about introduction to Microverse.
 - html
 - css
 
-## Live Demo (if available)
-
-None
-
+## Live Demo 
+[Live link](https://oscah01.github.io/Personal-Portfolio/)
 
 ## Getting Started
 - Install git bash to your machine to enable you to clone this repo.
