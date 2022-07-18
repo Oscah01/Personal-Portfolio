@@ -428,7 +428,7 @@ header > .logo {
 .contact-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 10px;
 }
 
@@ -505,6 +505,12 @@ header > .logo {
 .socialmedia-list img {
   height: 20px;
   width: 20px;
+}
+
+.full-name {
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-family: 'poppins';
 }
 
 @media (min-width: 768px) {
