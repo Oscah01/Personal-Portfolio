@@ -87,8 +87,8 @@ header > .logo {
 }
 
 .primary-text {
-  margin: 12px 0 20px 20px;
-  height: 200px;
+  margin: 206px 0 20px 20px;
+  height: 80px;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   line-height: 45px;
@@ -117,8 +117,8 @@ header > .logo {
 .img-post:hover { transform: scale(1.07); }
 
 .phar {
-  padding-left: 25px;
-  margin: 12px 0 20px 20px;
+  padding-left: 15px;
+  margin: 12px 0 20px 15px;
   overflow: hidden;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
@@ -163,11 +163,12 @@ header > .logo {
 }
 
 .homepage {
+  height: 718px;
   background-image: url(./images/background.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-radius: 0 0 0 90px;
-  padding: 100px 20px 0 0;
+  padding: 100px 20px 0 20;
   background-color: white;
 }
 
@@ -527,10 +528,30 @@ header > .logo {
   }
 
   .primary-text {
-    justify-content: flex-start;
-    font-size: 48px;
-    width: 100%;
-    padding-top: 100px;
+    margin: 12px 0 20px 20px;
+    height: 85px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 3vh;
+    text-transform: uppercase;
+    background-image:
+      linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+      );
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
   }
 
   .phar {
