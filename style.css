@@ -510,7 +510,7 @@ header > .logo {
 .full-name {
   padding-bottom: 15px;
   font-weight: 600;
-  font-family: 'poppins';
+  font-family: sans-serif;
 }
 
 @media (min-width: 768px) {
