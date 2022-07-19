@@ -112,9 +112,10 @@ header > .logo {
   animation: textclip 2s linear infinite;
   display: inline-block;
 }
+
 /*
 @keyframes textclip { to { background-position: 200% center; } }
-.img-post:hover { transform: scale(1.07); }*/
+.img-post:hover { transform: scale(1.07); } */
 
 .phar {
   padding-left: 15px;
