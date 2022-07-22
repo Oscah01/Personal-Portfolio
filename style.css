@@ -113,8 +113,9 @@ header > .logo {
   display: inline-block;
 }
 
+/*
 @keyframes textclip { to { background-position: 200% center; } }
-.img-post:hover { transform: scale(1.07); }
+.img-post:hover { transform: scale(1.07); } */
 
 .phar {
   padding-left: 15px;
@@ -129,7 +130,7 @@ header > .logo {
   order: 1;
   flex-grow: 0;
   width: auto;
-  height: 98px;
+  height: 146px;
 }
 
 .letsconnect {
@@ -138,7 +139,7 @@ header > .logo {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #1a30ff;
   margin-top: 15px;
 }
 
@@ -269,7 +270,7 @@ header > .logo {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
+  color: #4f5969;
   margin-right: 10px;
 }
 
@@ -300,7 +301,7 @@ header > .logo {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #0019fa;
   padding: 5px 15px;
   margin: 10px 20px 0 0;
 }
@@ -318,7 +319,7 @@ header > .logo {
 .btn {
   font-size: 20px;
   border: solid 1px #6070ff;
-  color: #6070ff;
+  color: #1a30ff;
   border-radius: 10px;
   margin: 30px 0 0 15px;
   padding: 12px;
@@ -428,7 +429,7 @@ header > .logo {
 .contact-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 10px;
 }
 
@@ -447,8 +448,9 @@ header > .logo {
   font-size: 18px;
   line-height: 28px;
   text-align: center;
-  color: #ebebff;
+  color: #9999;
   margin: 20px 0 50px 0;
+  background-color: #0000;
 }
 
 .inp-form {
@@ -478,7 +480,7 @@ header > .logo {
 .btncontact {
   width: 100px;
   height: 48px;
-  color: #6070ff;
+  color: #1a30ff;
   align-self: flex-start;
   border-radius: 8px;
   border: none;
@@ -504,6 +506,12 @@ header > .logo {
 .socialmedia-list img {
   height: 20px;
   width: 20px;
+}
+
+.full-name {
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
 @media (min-width: 768px) {
