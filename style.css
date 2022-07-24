@@ -48,7 +48,7 @@ li {
   transition: all 0.5s ease;
 }
 
-.hambuger {
+.hambuger-button {
   display: block;
   cursor: pointer;
 }
@@ -506,6 +506,37 @@ header > .logo {
   width: 20px;
 }
 
+#toggle{
+  z-index: 10;
+}
+#toggle.active .bar:nth-child(1) {
+  transform: rotate(40deg);
+  margin-top: 10px;
+}
+
+#toggle.active .bar:nth-child(2) {
+  transform: rotate(-40deg);
+  margin-top: -10px;
+}
+
+#toggle.active .bar:nth-child(3) {
+  display: none;
+}
+.menu{
+  text-align: center;
+  padding-top: 50px;
+  position: absolute;
+  padding-left: 15px;
+  top:-1000%;
+  left:0;
+  background-color: grey;
+  width: 100vw;
+  height: 100vh;
+}
+.menu li a {
+  font-size: 26px;
+  color: #fff;
+}
 @media (min-width: 768px) {
   .homepage {
     padding: 50px 30px 100px 30px;
@@ -523,7 +554,7 @@ header > .logo {
     padding: 0 140px;
   }
 
-  .hambuger {
+  .hambuger-button {
     display: none;
   }
 
