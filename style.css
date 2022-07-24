@@ -506,33 +506,22 @@ header > .logo {
   width: 20px;
 }
 
-#toggle{
+#toggle {
   z-index: 10;
 }
-#toggle.active .bar:nth-child(1) {
-  transform: rotate(40deg);
-  margin-top: 10px;
-}
 
-#toggle.active .bar:nth-child(2) {
-  transform: rotate(-40deg);
-  margin-top: -10px;
-}
-
-#toggle.active .bar:nth-child(3) {
-  display: none;
-}
-.menu{
+.menu {
   text-align: center;
   padding-top: 50px;
   position: absolute;
   padding-left: 15px;
-  top:-1000%;
-  left:0;
+  top: -1000%;
+  left: 0;
   background-color: grey;
   width: 100vw;
   height: 100vh;
 }
+
 .menu li a {
   color: rgba(255, 255, 255, 1);
   font-size: 32px;
