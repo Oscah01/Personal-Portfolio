@@ -534,9 +534,14 @@ header > .logo {
   height: 100vh;
 }
 .menu li a {
-  font-size: 26px;
-  color: #fff;
+  color: rgba(255, 255, 255, 1);
+  font-size: 32px;
+  line-height: 54px;
+  font-weight: 500;
+  opacity: 1;
+  mix-blend-mode: normal;
 }
+
 @media (min-width: 768px) {
   .homepage {
     padding: 50px 30px 100px 30px;

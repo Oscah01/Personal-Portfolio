@@ -8,7 +8,7 @@ toggle.addEventListener('click', () =>{
         toggle.classList.add('active');
         
     } else {
-        menu.style.top = '-1000%';
+        menu.style.top = '-1000%                                                                                                                             ';
         toggle.classList.remove('active');
     }
     
