@@ -125,7 +125,6 @@ header > .logo {
   background-repeat: no-repeat;
   border-radius: 0 0 0 90px;
   background-color: white;
-  filter: blur(5px);
 }
 
 .works1,
@@ -485,7 +484,7 @@ header > .logo {
   width: 35px;
   height: 30px;
   position: fixed;
-  top: 50px;
+  top: 20px;
   right: 50px;
   cursor: pointer;
   display: flex;
