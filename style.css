@@ -24,6 +24,7 @@ li {
   box-sizing: border-box;
   margin: 0;
   gap: 142px;
+  z-index: 1;
 }
 
 .top-sec {
@@ -33,6 +34,7 @@ li {
   padding: 0 20px;
   min-height: 70px;
   background: white;
+ 
 }
 
 .nav-menu {
@@ -48,18 +50,6 @@ li {
   transition: all 0.5s ease;
 }
 
-.hambuger {
-  display: block;
-  cursor: pointer;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: #6070ff;
-}
 
 .contain1 {
   margin-left: 32em;
@@ -170,6 +160,7 @@ header > .logo {
   border-radius: 0 0 0 90px;
   padding: 100px 20px 0 20;
   background-color: white;
+  filter: blur(5px);
 }
 
 .works1,
@@ -410,6 +401,7 @@ header > .logo {
   margin: 8px 0 12px;
 }
 
+
 .contact-form {
   background-image: url(./images/background2.png);
   background-color: #6070ff;
@@ -506,7 +498,84 @@ header > .logo {
   width: 20px;
 }
 
+
+.navbar{
+  width:100%;
+  height: 799px;
+  background: #6070FF;
+  mix-blend-mode: multiply;
+  position: fixed;
+  top:0;
+  right:-100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transition: right 0.8s cubic-bezier(1, 0, 0,);
+  z-index: 15;
+  opacity: 1;
+}
+.navbar.change .hamburger-menu{
+filter: brightness(100);
+}
+
+.change{
+  right:0;
+}
+.hamburger-menu{
+  width: 35px;
+  height: 30px;
+  position: fixed;
+  top:50px;
+  right: 50px;
+  cursor:pointer;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.line{
+  width:100%;
+  height:3px;
+  background: #6070FF;
+  transition: all 0.8s;
+}
+.change .line-1{
+  transform: rotateZ(-405deg) translate(-8px, 6px);      
+}
+.change .line-2{
+  opacity: 0;
+}
+.change .line-3{
+  transform: rotateZ(405deg) translate(-8px, -6px);      
+ 
+}
+
+.nav-item {
+  list-style: none;
+  margin-top:40px;
+}
+
+.nav-link{
+font-family:'Poppins', sans-serif;
+font-style: normal;
+font-weight:800;
+font-size: 32px;
+ display: flex;
+ align-items: center;
+  color: #FFFFFF;
+
+}
+.remove{
+  margin-top: 7px;
+  padding: 2px 200px 500px 0;
+}
+
 @media (min-width: 768px) {
+  .hamburger-menu{
+    display: none;
+  }
+  .navbar{
+    display: none;
+  }
   .homepage {
     padding: 50px 30px 100px 30px;
     height: 100vh;
