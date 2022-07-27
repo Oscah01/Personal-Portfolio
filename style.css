@@ -37,6 +37,7 @@ li {
 
 .nav-menu {
   display: none;
+  margin-top: -40px;
 }
 
 .nav-branding {
