@@ -99,3 +99,8 @@ A mighty, modern linter that helps you avoid errors and enforce conventions in y
 4. Run `npx eslint .` on the root of your directory of your project.
 5. Fix linter errors.
 6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+
+
+# author 
+## name
+Afiamoah Samuel
