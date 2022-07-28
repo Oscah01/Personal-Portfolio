@@ -21,30 +21,40 @@
 
   <body>
     <header>
-       
       <nav class="top-sec">
         <a href="#"><h1 class="nav-branding">Oscar Deus</h1></a>
         <ul class="nav-menu">
-          <li class="nav-item nav-link"><a href="#">Portfolio</a></li>
-          <li class="nav-item nav-link"><a href="#">About</a></li>
-          <li class="nav-item nav-link"><a href="#">Contact</a></li>
+          <li class="nav-item nav-link"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-item nav-link"><a href="#about">About</a></li>
+          <li class="nav-item nav-link"><a href="#contact">Contact</a></li>
         </ul>
-        <div id="toggle" class="hambuger-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
       </nav>
-      <div class="">
-        <ul class="menu">
-          <li> <a href="#Portfolio">Portfolio </a></li>
-          <li> <a href="#About">About</a></li>
-          <li> <a href="#Contact">Contact</a></li>
-        </ul>
-    </div>
+        <div class="container12"></div>
+        <div class="navbar">
+          <div class="hamburger-menu">
+            <div class="line  line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>  
+            </div>
+            <nav class="remove">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Porfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+           </nav>
+        </div>
+        
+
     </header>
 
-    <section class="homepage">
+    <section class="homepage" id="portfolio">
       <div class="headtitle-name headtitle">
         <h1 class="primary-text">I'm Oscar <br> Glad to see you!</h1>
         <p class="phar">
@@ -63,6 +73,7 @@
           <li class="socials"><img src="images/angelist.png" alt="ange" /></li>
         </ul>
       </div>
+     
     </section>
 
     <section class="container">
@@ -90,8 +101,70 @@
             <li class="lang-styles">Css</li>
             <li class="lang-styles">JavaScript</li>
           </ul>
-          <button type="button" class="btn">See Projects</button>
+          <div class="btn1">
+            <button data-modal-target="#modal" class="btn">See Projects</button>
+          </div>
+          <div class="btn2">
+          <button data-modal-target="#modal1" class="btn">See Projects</button>
         </div>
+        </div>
+          <div class="modal" id="modal">
+            <div class="modal-header">
+              <div class="title">TONIC</div>
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="menu" id ="menu">
+               
+                    <div class="tonic"></div>
+                </div>
+                <div class="popup">
+                    <ul class="work-info">
+                        <li class="canopy">CANOPY</li>
+                        <li class="back-end-dev">
+                          <img src="images/Counter.png" alt="" />
+                          <span>Back End Dev</span>
+                        </li>
+                        <li class="back-end-dev">
+                          <img src="images/Counter.png" alt="" />
+                          <span>2015</span>
+                        </li>
+                      </ul>
+                      <span class="image">
+                        <img src="images/model.png" alt="image model" />
+                      </span>
+                     <div class="text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and scrambled it to make a type
+                           specimen book. It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining essent
+                     </div>
+                     <div class="list">
+                        <ul class="prog-lang">
+                            <li class="lang-styles">HTML</li>
+                            <li class="lang-styles">Css</li>
+                            <li class="lang-styles">JavaScript</li>
+                          </ul>
+                       
+                     </div>
+                       <div class="borders"></div>
+                     <div class="live">
+                        <ul class="live1">
+                            <li class="live2">
+                             <span class="project">See live</span>
+                             <img src="images/Icon.png" alt="icon"/>
+                            </li>
+                            <li class="live2">
+                                <span class="project">See Source</span>
+                                <img src="images/Vector.png" alt="icon"/>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+          </div>
+          <div id="overlay"></div>
+
       </section>
 
       <section class="works-temp1 works2">
@@ -125,7 +198,84 @@
             <li class="lang-styles">Css</li>
             <li class="lang-styles">JavaScript</li>
           </ul>
-          <button type="button" class="btn">See Projects</button>
+          <div class="btn1">
+          <button data-modal-target="#modal" class="btn">See Projects</button>
+        </div>
+        <div class="btn2">
+          <button data-modal-target="#modal1" class="btn">See Projects</button>
+        </div>
+          <section class="app">
+          <div class="modal1" id="modal1">
+            <div class="modal-header">
+              <div class="title">TONIC</div>
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal1-body">
+              <div class="menu" id ="menu1">
+               
+                    <div class="tonic"></div>
+                </div>
+                <div class="popup">
+                    <ul class="work-info">
+                        <li class="canopy">CANOPY</li>
+                        <li class="back-end-dev">
+                          <img src="images/Counter.png" alt="" />
+                          <span>Back End Dev</span>
+                        </li>
+                        <li class="back-end-dev">
+                          <img src="images/Counter.png" alt="" />
+                          <span>2015</span>
+                        </li>
+                      </ul>
+        
+                      <div class="image1">
+                        <img src="images/desk.png" alt="image model" />
+                      </div>
+                     <div class="text">
+                      <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                      when an unknown printer took a galley of type and scrambled it 1960s with the 
+                      releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+                      an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum 
+                      is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer 
+                      took a galley of type and scrambled it 1960s with the releawn printer took a galley of 
+                      type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing 
+                      and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                       the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea
+                      </p>
+                      <div class="list">
+                        <ul class="prog-lang">
+                            <li class="lang-styles">HTML</li>
+                            <li class="lang-styles">Css</li>
+                            <li class="lang-styles">JavaScript</li>
+                          </ul>
+                     <div class="list">
+                      <ul class="prog-lang">
+                          <li class="lang-styles">github</li>
+                          <li class="lang-styles">ruby</li>
+                          <li class="lang-styles">BootstrampS</li>
+                        </ul>
+                        <div class="live">
+                          <ul class="live1">
+                              <li class="live2">
+                               <h6 class="project">See live</h6>
+                               <img src="images/Icon.png" alt="icon"/>
+                              </li>
+                              <li class="live2">
+                                  <h6 class="project">See Source</h6>
+                                  <img src="images/Vector.png" alt="icon"/>
+                          </ul>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div id="overlay1"></div>
+        </div>
+        </section>
         </div>
       </section>
 
@@ -153,7 +303,12 @@
             <li class="lang-styles">Css</li>
             <li class="lang-styles">JavaScript</li>
           </ul>
-          <button type="button" class="btn">See Projects</button>
+          <div class="btn1">
+            <button data-modal-target="#modal" class="btn">See Projects</button>
+          </div>
+          <div class="btn2">
+          <button data-modal-target="#modal1" class="btn">See Projects</button>
+        </div>
         </div>
       </section>
 
@@ -184,11 +339,16 @@
             <li class="lang-styles">Css</li>
             <li class="lang-styles">JavaScript</li>
           </ul>
-          <button type="button" class="btn">See Projects</button>
+          <div class="btn1">
+            <button data-modal-target="#modal" class="btn">See Projects</button>
+          </div>
+          <div class="btn2">
+          <button data-modal-target="#modal1" class="btn">See Projects</button>
+        </div>
         </div>
       </section>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="about">
       <div class="aboutme2">
         <h1 class="about-my-self">
           About <br />
@@ -277,7 +437,7 @@
 
     <footer>
       <section class="background-style">
-        <div class="contact-form">
+        <div class="contact-form" id="contact">
         <h2 class="contact-title">Contact me</h2>
         <p class="p-contact">
           If you have an application you are interested in developing, a feature
@@ -306,7 +466,6 @@
             placeholder="email"
             required
           />
-
           <textarea
             name="message"
             class="text-area"
@@ -324,6 +483,6 @@
       </div>
       </section>
     </footer>
-<script src="/main.js"></script>
+    <script src="/app.js"></script>
   </body>
 </html>
