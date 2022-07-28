@@ -59,3 +59,39 @@ function closeModal(modal) {
   modal.classList.remove('active')
   overlay.classList.remove('active')
 }
+const openModalButtons1 = document.querySelectorAll('[data-modal-target]')
+const closeModalButtons1 = document.querySelectorAll('[data-close-button]')
+const overlay1 = document.getElementById('overlay1')
+
+openModalButtons1.forEach(button => {
+  button.addEventListener('click', () => {
+    const modal1 = document.querySelector(button.dataset.modalTarget)
+    openModal(modal1)
+  })
+})
+
+overlay1.addEventListener('click', () => {
+  const modals = document.querySelectorAll('.modal1.active')
+  modals.forEach(modal1 => {
+    closeModal(modal1)
+  })
+})
+
+closeModalButtons1.forEach(button => {
+  button.addEventListener('click', () => {
+    const modal1 = button.closest('.modal1')
+    closeModal(modal1)
+  })
+})
+
+function openModal(modal1) {
+  if (modal1 == null) return
+  modal1.classList.add('active')
+  overlay1.classList.add('active')
+}
+
+function closeModal(modal1) {
+  if (modal1 == null) return
+  modal1.classList.remove('active')
+  overlay1.classList.remove('active')
+}
