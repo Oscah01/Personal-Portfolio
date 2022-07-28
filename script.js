@@ -24,8 +24,8 @@ const worksArray = [
     language4: 'github',
     language5: 'ruby',
     language6: 'bootstrap',
-    liveBtn: ' https://simongideon.github.io/Portfolio/',
-    sourceBtn: 'https://github.com/SimonGideon/Portfolio',
+    liveBtn: ' https://github.com/Oscah01/Personal-Portfolio',
+    sourceBtn: 'https://github.com/Oscah01/Personal-Portfolioo',
   },
 
   {
@@ -45,8 +45,8 @@ const worksArray = [
     language4: 'github',
     language5: 'ruby',
     language6: 'bootstrap',
-    liveBtn: ' https://simongideon.github.io/Portfolio/',
-    sourceBtn: 'https://github.com/SimonGideon/Portfolio',
+    liveBtn: ' https://github.com/Oscah01/Personal-Portfolio/',
+    sourceBtn: 'https://github.com/Oscah01/Personal-Portfolio',
   },
 
   {
@@ -66,8 +66,8 @@ const worksArray = [
     language4: 'github',
     language5: 'ruby',
     language6: 'bootstrap',
-    liveBtn: ' https://simongideon.github.io/Portfolio/',
-    sourceBtn: 'https://github.com/SimonGideon/Portfolio',
+    liveBtn: ' https://github.com/Oscah01/Personal-Portfolio/',
+    sourceBtn: 'https://github.com/Oscah01/Personal-Portfolio',
   },
 
   {
@@ -87,8 +87,8 @@ const worksArray = [
     language4: 'github',
     language5: 'ruby',
     language6: 'bootstrap',
-    liveBtn: ' https://simongideon.github.io/Portfolio/',
-    sourceBtn: 'https://github.com/SimonGideon/Portfolio',
+    liveBtn: ' https://github.com/Oscah01/Personal-Portfolio/',
+    sourceBtn: 'https://github.com/Oscah01/Personal-Portfolio',
   },
 ];
 
