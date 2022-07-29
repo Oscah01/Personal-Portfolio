@@ -372,9 +372,10 @@ nav {
   margin-top: 103px;
 }
 
-.contact-info{
-gap:17px;
+.contact-info {
+  gap: 17px;
 }
+
 .menu-items li a {
   transition: 0.7s ease;
 }
@@ -411,35 +412,37 @@ textarea {
 .form input {
   max-height: 40px;
 }
-.inp-form{
+
+.inp-form {
   justify-content: space-around;
   text-align: center;
   font-size: 18px;
-  left: 0px;
-right: 0px;
-top: 0px;
-bottom: 0px;
-background: #FFFFFF;
-border: 1px solid #CFD8DC;
-border-radius: 8px;
-width: 327px;
-height: 48px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
 }
+
 textarea {
   height: 170px;
 }
 
-.btncontact{
+.btncontact {
   display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px 16px;
-width: 140px;
-height: 48px;
-left: 24px;
-top: 5317px;
-background: #FFFFFF;
-border-radius: 8px;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  width: 140px;
+  height: 48px;
+  left: 24px;
+  top: 5317px;
+  background: #fff;
+  border-radius: 8px;
 }
 
 .wrapper .wrapper-sub-head {
@@ -447,10 +450,10 @@ border-radius: 8px;
   width: 100%;
   padding-left: 1em;
 }
+
 .hidden {
   display: none;
 }
-
 
 .contacts-section {
   border-top-left-radius: 80px;
@@ -538,9 +541,9 @@ button:active {
 .sec {
   background-color: #fff;
 }
+
 .background-style {
   background: url("./images/co.png");
- 
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: 150px;
@@ -553,10 +556,10 @@ button:active {
   border-radius: 90px 0 0 0;
 }
 
-.contact-title{
+.contact-title {
   width: 327px;
   height: 102px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -564,23 +567,23 @@ button:active {
   align-items: center;
   text-align: center;
   justify-content: center;
-  color: #FFFFFF;
-  margin:10px 70px 
-
+  color: #fff;
+  margin: 10px 70px;
 }
-.p-contact{
-  margin:10px 70px;
+
+.p-contact {
+  margin: 10px 70px;
   width: 327px;
   height: 102px;
   left: 24px;
   top: 4802px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
 }
 
 .bar {
@@ -631,10 +634,11 @@ button:active {
     box-sizing: border-box;
     align-items: center;
   }
+
   .hidden {
     display: none;
   }
-  
+
   body {
     width: 100%;
   }
@@ -773,9 +777,10 @@ button:active {
   .my-logo {
     margin-top: 15px;
   }
+
   .background-style {
     background: url("./images/co.png");
-   border:solid rebeccapurple;
+    border: solid rebeccapurple;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 150px;
@@ -786,7 +791,6 @@ button:active {
     padding: 40px 0;
     background-color: #6070ff;
     border-radius: 90px 0 0 0;
- 
   }
 
   .contact-form {
@@ -833,10 +837,11 @@ button:active {
   .wrapper-text .long-paragraph {
     font-size: 10px !important;
   }
+
   .hidden {
     display: none;
   }
-  
+
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -1397,11 +1402,6 @@ button:active {
     color: #6070ff;
     align-self: start;
     margin-top: 13px;
-  }
-  .contacts-section{
-    width: 500px;
-    margin-bottom: 20px;
-    background: none;
   }
 
   .form {
