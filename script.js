@@ -308,7 +308,7 @@ document.querySelector('#submit').addEventListener('click', (event) => {
 });
 
 const name1 = document.getElementById('name');
-const email2 = document.getElementById('mail');
+const email2 = document.getElementById('email');
 const message3 = document.getElementById('msg');
 
 if (!localStorage.getItem('form')) {
