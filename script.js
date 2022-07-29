@@ -293,54 +293,16 @@ btn4.addEventListener('click', () => {
   popup();
 });
 
-function showMessage(input, message, type) {
-  const msg = input.parentNode.querySelector('small');
-  msg.innerText = message;
-  input.className = type ? 'success' : 'error';
-  return type;
-}
-function showError(input, message) {
-  return showMessage(input, message, false);
-}
-
-function showSuccess(input) {
-  return showMessage(input, '', true);
-}
-
-function hasValue(input, message) {
-  if (input.value.trim() === '') {
-    return showError(input, message);
-  }
-  return showSuccess(input);
-}
-
-function validateEmail(input, requiredMsg, invalidMsg) {
-  // check if the value is not empty
-  if (!hasValue(input, requiredMsg)) {
-    return false;
-  }
-  const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
-  const email = input.value.trim();
-  if (!emailRegex.test(email)) {
-    return showError(input, invalidMsg);
-  }
-  return true;
-}
-
-const form = document.querySelector('#signup');
-
-const NAME_REQUIRED = 'Please enter your name';
-const EMAIL_REQUIRED = 'Please enter your email';
-const EMAIL_INVALID = 'Please enter a correct email address format';
-
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const nameValid = hasValue(form.elements.name, NAME_REQUIRED);
-  const emailValid = validateEmail(form.elements.email, EMAIL_REQUIRED, EMAIL_INVALID);
-
-  if (nameValid && emailValid) {
-    // eslint-disable-next-line no-alert
-    alert('No form was posted!');
+document.querySelector('#submit').addEventListener('click', (event) => {
+  const email = document.getElementById('email').value;
+  const error = document.querySelector('.error');
+  const isLowerCase = (str) => str === str.toLowerCase();
+  if (!isLowerCase(email)) {
+    event.preventDefault();
+    error.innerHTML = 'Please write a lowercase email';
+    error.style.color = 'red';
+    setTimeout(() => {
+      error.innerHTML = '';
+    }, 5000);
   }
 });

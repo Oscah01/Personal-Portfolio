@@ -310,6 +310,32 @@ nav {
   padding: 12px;
 }
 
+.input-item {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+  height: 48px;
+  width: 327px;
+  border-radius: 8px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+}
+
+#submit {
+  width: 140px;
+  height: 48px;
+  left: 24px;
+  top: 5317px;
+  background: #fff;
+  border-radius: 8px;
+  color: #396df2;
+  margin-right: 180px;
+}
+
 .inner-list li {
   background: #f7f7f9;
   border-radius: 8px;
@@ -409,6 +435,16 @@ textarea {
   min-width: 300px;
 }
 
+.error {
+  text-align: center;
+  display: block;
+  color: rgb(247, 234, 234);
+  border-bottom: 4px dotted white;
+  font-size: 16px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
 small {
   display: block;
   margin-top: 8px;
@@ -434,6 +470,15 @@ small {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+}
+
+.success {
+  display: block;
+  color: rgb(186, 219, 186);
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  bottom: 10px;
 }
 
 #email {
