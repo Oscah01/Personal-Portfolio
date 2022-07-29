@@ -282,13 +282,44 @@
                         </p>
                     </div>
                     <div class="form">
-                        <form action="https://https://formspree.io/f/mayvgkrd" method="post">
-                            <input type="text" placeholder="Full names" maxlength="30" required>
-                            <input name="Email" id="email" type="email" placeholder="email" required>
-                            <textarea id="message" name="message" placeholder="write your message here" maxlength="500" required></textarea>
-                            <br>
-                            <button class="sub-btn" type="submit">Get in Touch</button>
-                        </form>
+                      <form
+                      class="contact-info"
+                      action="https://formspree.io/f/mwkyenjw"
+                      method="POST" id="form"
+                    >
+                      <label for="name">Name</label>
+                      <input
+                        type="text"
+                        name="Name"
+                        class="inp-form"
+                        maxlength="30"
+                        required
+                        placeholder="Name" id="name"
+                      />
+                      <label for="email"> Email</label>
+                      <input
+                        type="email"
+                        name="_replyTo"
+                        class="inp-form"
+                        id="email"
+                        placeholder="Email"
+                        required 
+                      />
+                      <label for="message">Write your message here</label>
+                      <textarea
+                        name="message"
+                        class="text-area"
+                        cols="30"
+                        rows="10"
+                        maxlength="500"
+                        placeholder="Write your message here"
+                        required id="message"
+                      ></textarea>
+                      <small id="message-error" class="hidden">Failed to send.Your email should be in lowercase e.g alaa.m.shaheen22@gmail.com
+                      </small>
+                      <small id="message-success" class="hidden">From Submitted</small>
+                      <input type="submit" class="btncontact" value="Get It Touch" />
+                    </form>
                     </div>
                 </div>
             </div>      
