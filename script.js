@@ -293,21 +293,54 @@ btn4.addEventListener('click', () => {
   popup();
 });
 
-const form = document.querySelector('form');
-const emailAdrdress = document.getElementById('email');
-const emailPattern = /^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$/g;
-const msgError = document.querySelector('#message-error');
-const msgSuccess = document.querySelector('#message-success');
+function showMessage(input, message, type) {
+  const msg = input.parentNode.querySelector('small');
+  msg.innerText = message;
+  input.className = type ? 'success' : 'error';
+  return type;
+}
+function showError(input, message) {
+  return showMessage(input, message, false);
+}
 
-form.addEventListener('submit', (e) => {
-  if (!emailAdrdress.value.match(emailPattern)) {
-    e.preventDefault();
-    msgError.classList.toggle('error');
+function showSuccess(input) {
+  return showMessage(input, '', true);
+}
 
-    setTimeout(() => { msgError.classList.toggle('error'); }, 7000);
-  } else {
-    msgSuccess.classList.toggle('success');
+function hasValue(input, message) {
+  if (input.value.trim() === '') {
+    return showError(input, message);
+  }
+  return showSuccess(input);
+}
 
-    setTimeout(() => { form.submit(); }, 6000);
+function validateEmail(input, requiredMsg, invalidMsg) {
+  // check if the value is not empty
+  if (!hasValue(input, requiredMsg)) {
+    return false;
+  }
+  const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+  const email = input.value.trim();
+  if (!emailRegex.test(email)) {
+    return showError(input, invalidMsg);
+  }
+  return true;
+}
+
+const form = document.querySelector('#signup');
+
+const NAME_REQUIRED = 'Please enter your name';
+const EMAIL_REQUIRED = 'Please enter your email';
+const EMAIL_INVALID = 'Please enter a correct email address format';
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const nameValid = hasValue(form.elements.name, NAME_REQUIRED);
+  const emailValid = validateEmail(form.elements.email, EMAIL_REQUIRED, EMAIL_INVALID);
+
+  if (nameValid && emailValid) {
+    // eslint-disable-next-line no-alert
+    alert('No form was posted!');
   }
 });

@@ -272,7 +272,7 @@
             </div>
         </div>
     </section>
-        
+  
 
 <footer class="background-style">
   <section class="contact-form" id="contact">
@@ -282,28 +282,16 @@
       that you need built or a project that needs coding. I’d love to help
       with it
     </p>
-    <form
-      class="contact-info"
-      action="https://formspree.io/f/mgeqwwrb"
-      method="POST" id="form"
-    >
-      <input
-        type="text"
-        name="Name"
-        class="inp-form"
-        maxlength="30"
-        required
-        placeholder="Name" id="name"
-      />
-      <input
-        type="email"
-        name="_replyTo"
-        class="inp-form"
-        id="email"
-        placeholder="Email"
-        required 
-      />
-      <textarea
+      <form action="https://formspree.io/f/mgeqwwrb" method="post" id="signup">
+        <div class="field">
+            <input type="text" id="name" name="name" placeholder="Enter your fullname" />
+            <small></small>
+        </div>
+        <div class="field">
+            <input type="text" id="email" name="email" placeholder="Enter your email address" />
+            <small></small>
+        </div>
+        <textarea
         name="message"
         class="text-area"
         cols="30"
@@ -312,10 +300,9 @@
         placeholder="Write your message here"
         required id="message"
       ></textarea>
-      <small id="message-error" class="hidden">Failed to send.Your email should be in lowercase e.g pipkillerinfo@gmail.com
-      </small>
-      <small id="message-success" class="hidden">From Submitted</small>
-      <input type="submit" class="btncontact" value="Get Intouch" />
+        <div class="field">
+            <button type="submit" class="full">Get Intounch</button>
+        </div>
     </form>
     <div class="contact-bar">
       <img class="end-line" src="./images/Shape.png" alt=" end line icon" />

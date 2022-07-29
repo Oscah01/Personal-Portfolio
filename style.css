@@ -409,14 +409,24 @@ textarea {
   min-width: 300px;
 }
 
+small {
+  display: block;
+  margin-top: 8px;
+  color: red;
+  font-size: 16px;
+  font-family: 'poppins', sans-serif;
+}
+
 .form input {
   max-height: 40px;
 }
 
-.inp-form {
-  justify-content: space-around;
-  text-align: center;
+#name {
+  padding: 10px;
   font-size: 18px;
+  text-align: center;
+  height: 48px;
+  width: 327px;
   left: 0;
   right: 0;
   top: 0;
@@ -424,12 +434,33 @@ textarea {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  width: 327px;
+}
+
+#email {
+  font-size: 18px;
+  text-align: center;
   height: 48px;
+  width: 327px;
+  border-radius: 8px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #cfd8dc;
 }
 
 textarea {
   height: 170px;
+}
+
+.full {
+  font-size: 18px;
+  width: 140px;
+  height: 48px;
+  background: #fff;
+  border-radius: 8px;
+  color: #6070ff;
 }
 
 .btncontact {
@@ -498,7 +529,7 @@ textarea {
   align-items: center;
 }
 
-.sub-btn {
+.sfield {
   height: 48px;
   top: 5317px;
   width: 140px;
@@ -543,10 +574,9 @@ button:active {
 }
 
 .background-style {
-  background: url("./images/co.png");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-y: 150px;
+  background-size: 95%;
+  background-position-y: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
